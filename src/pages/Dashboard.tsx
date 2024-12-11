@@ -30,21 +30,21 @@ const Dashboard = () => {
           icon={Search}
           title="Search Leads"
           description="Search and build lists from our database of 65M+ businesses globally."
-          link="/search"
+          link="/app/search"
           linkText="Start searching"
         />
         <DashboardCard
           icon={List}
           title="My Lists"
           description="View and manage your previously created and imported lists."
-          link="/lists"
+          link="/app/lists"
           linkText="View lists"
         />
         <DashboardCard
           icon={Upload}
           title="Import & Clean"
           description="Import and clean your existing lists with our AI-powered tools."
-          link="/import"
+          link="/app/import"
           linkText="Import now"
         />
       </div>

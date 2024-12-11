@@ -12,11 +12,11 @@ const Sidebar = () => {
   };
   
   const menuItems = [
-    { icon: Home, label: 'Dashboard', path: '/' },
-    { icon: Search, label: 'Search Leads', path: '/search' },
-    { icon: List, label: 'My Lists', path: '/lists' },
-    { icon: Upload, label: 'Import & Clean', path: '/import' },
-    { icon: Wrench, label: 'Tools', path: '/tools' },
+    { icon: Home, label: 'Dashboard', path: '/app' },
+    { icon: Search, label: 'Search Leads', path: '/app/search' },
+    { icon: List, label: 'My Lists', path: '/app/lists' },
+    { icon: Upload, label: 'Import & Clean', path: '/app/import' },
+    { icon: Wrench, label: 'Tools', path: '/app/tools' },
   ];
 
   return (
